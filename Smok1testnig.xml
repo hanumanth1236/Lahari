@@ -3,6 +3,9 @@
   <test thread-count="5" name="Smoke1Test">
     <classes>
       <class name="com.Hrms.tests.TestPIMPage"/>
+      <methods>
+		<include name='editEmploymentStatus'/>
+		</methods>
     </classes>
   </test> <!-- Smoke1Test -->
 </suite> <!-- Suite -->
