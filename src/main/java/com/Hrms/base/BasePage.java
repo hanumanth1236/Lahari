@@ -15,13 +15,14 @@ public class BasePage {
 		
 	CommonUtils.initialize();
 	CommonUtils.launchBrowserAndNavigateToApp();
+	
 		
 	}
 	
 	@AfterTest
 	public void close() throws Exception {
 		
-	//driver.quit();
+	driver.quit();
 		
 	}
 	
