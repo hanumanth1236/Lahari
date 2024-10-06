@@ -22,7 +22,7 @@ public class BasePage {
 	@AfterTest
 	public void close() throws Exception {
 		
-	driver.quit();
+	//driver.quit();
 		
 	}
 	
