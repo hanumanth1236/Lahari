@@ -32,6 +32,7 @@ public class CommonUtils{
 	public static Properties config;
 	public static WebDriver driver;
 	public static final String configFilePath = "\\src\\test\\resources\\config.properties";
+	
 
 //this method loads the application's configuration settings from a properties file.
 	public static void initialize() throws Exception{
@@ -250,6 +251,7 @@ public class CommonUtils{
 		}
 		return result;
 	}
+	
 	//Scroll till the target element
 	
 	public static void scrollToElement(By by) {
@@ -309,5 +311,14 @@ public class CommonUtils{
 	}
 	
 	
-	
+	/* Switches focus back to the main HTML document (default frame).
+    */
+   public static void switchToDefaultContent() {
+       try {
+           driver.switchTo().defaultContent();
+       } catch (Exception e) {
+           System.out.println("Already in default content.");
+       }
+   }
+		
 }

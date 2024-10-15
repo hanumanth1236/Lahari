@@ -4,7 +4,7 @@
     <classes>
       <class name="com.Hrms.tests.TestPIMPage"/>
       <methods>
-		<include name='editEmploymentStatus'/>
+		<include name='deleteEmployee'/>
 		</methods>
     </classes>
   </test> <!-- Smoke1Test -->

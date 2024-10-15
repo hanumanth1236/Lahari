@@ -1,25 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-04T14:09:20 IST" name="Suite" finished-at="2024-10-04T14:09:25 IST" duration-ms="5167">
+  <suite started-at="2024-10-15T07:19:17 IST" name="Suite" finished-at="2024-10-15T07:20:46 IST" duration-ms="89022">
     <groups>
     </groups>
-    <test started-at="2024-10-04T14:09:20 IST" name="Smoke1Test" finished-at="2024-10-04T14:09:25 IST" duration-ms="5167">
+    <test started-at="2024-10-15T07:19:17 IST" name="Smoke2Test" finished-at="2024-10-15T07:20:46 IST" duration-ms="89022">
       <class name="com.Hrms.tests.TestPIMPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Hrms.tests.TestPIMPage@17f62e33]" started-at="2024-10-04T14:09:20 IST" name="setup" finished-at="2024-10-04T14:09:25 IST" duration-ms="5135" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:19:17 IST" name="setup" finished-at="2024-10-15T07:19:21 IST" duration-ms="4327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="editEmploymentStatus()[pri:0, instance:com.Hrms.tests.TestPIMPage@17f62e33]" started-at="2024-10-04T14:09:25 IST" name="editEmploymentStatus" description="Verify that the employment status of an employee can be updated" finished-at="2024-10-04T14:09:25 IST" duration-ms="4" status="PASS">
+        <test-method signature="addEmployee()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:19:21 IST" name="addEmployee" description="Verify that an employee can be added successfully" finished-at="2024-10-15T07:19:39 IST" duration-ms="18150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method signature="deleteEmployee()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:19:39 IST" name="deleteEmployee" description="Verify that an employee can be deleted successfully" finished-at="2024-10-15T07:20:19 IST" duration-ms="39274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method signature="addEmployeePhotos()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:19:39 IST" name="addEmployeePhotos" description="Verify that photos can be added to employee profiles" finished-at="2024-10-15T07:19:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeePhotos -->
+        <test-method signature="editEmployeeDetails()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:20:19 IST" name="editEmployeeDetails" description="Verify that employee details can be edited successfully" finished-at="2024-10-15T07:20:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployeeDetails -->
+        <test-method signature="searchEmployee()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:20:19 IST" name="searchEmployee" description="Verify that the search functionality returns the correct employee" finished-at="2024-10-15T07:20:46 IST" duration-ms="27182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployee -->
+        <test-method signature="filterEmployeeList()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:20:19 IST" name="filterEmployeeList" description="Verify that the employee list can be filtered based on various criteria" finished-at="2024-10-15T07:20:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterEmployeeList -->
+        <test-method signature="editEmploymentStatus()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:20:19 IST" name="editEmploymentStatus" description="Verify that the employment status of an employee can be updated" finished-at="2024-10-15T07:20:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editEmploymentStatus -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.Hrms.tests.TestPIMPage@17f62e33]" started-at="2024-10-04T14:09:25 IST" name="close" finished-at="2024-10-04T14:09:25 IST" duration-ms="1" status="PASS">
+        <test-method signature="viewEmployeeDetails()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:20:46 IST" name="viewEmployeeDetails" description="Verify that employee details are correctly displayed" finished-at="2024-10-15T07:20:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewEmployeeDetails -->
+        <test-method signature="viewEmployeeList()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:20:46 IST" name="viewEmployeeList" description="Verify that the employee list is displayed correctly with accurate information" finished-at="2024-10-15T07:20:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewEmployeeList -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Hrms.tests.TestPIMPage@4b741d6d]" started-at="2024-10-15T07:20:46 IST" name="close" finished-at="2024-10-15T07:20:46 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.Hrms.tests.TestPIMPage -->
-    </test> <!-- Smoke1Test -->
+    </test> <!-- Smoke2Test -->
   </suite> <!-- Suite -->
 </testng-results>

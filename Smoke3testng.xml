@@ -1,0 +1,8 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Smoke3Test">
+    <classes>
+      <class name="com.Hrms.tests.TestPIMPage"/>
+    </classes>
+  </test> <!-- Smoke3Test -->
+</suite> <!-- Suite -->

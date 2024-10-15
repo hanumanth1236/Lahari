@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Smoke3Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Smoke3Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 09 15:05:28 IST 2024</td>
+<td>Started on:</td><td>Wed Oct 09 14:39:20 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20496 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31140 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,152 +75,38 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Hrms.tests.TestPIMPage.addEmployee()'><b>addEmployee</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that an employee can be added successfully</td>
-<td><div><pre>java.lang.AssertionError: Unable to locate element: //iframe[@id=&apos;rightMenu&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//iframe[@id=&apos;rightMenu&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
-	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
-	at com.Hrms.utils.CommonUtils.switchToFrame(CommonUtils.java:89)
-	at com.Hrms.tests.TestPIMPage.addEmployee(TestPIMPage.java:48)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace225753796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace225753796'><pre>java.lang.AssertionError: Unable to locate element: //iframe[@id=&apos;rightMenu&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//iframe[@id=&apos;rightMenu&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
-	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
-	at com.Hrms.utils.CommonUtils.switchToFrame(CommonUtils.java:89)
-	at com.Hrms.tests.TestPIMPage.addEmployee(TestPIMPage.java:48)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>11</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
-<tr>
-<td title='com.Hrms.tests.TestPIMPage.filterEmployeeList()'><b>filterEmployeeList</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that the employee list can be filtered based on various criteria</td>
+<td title='com.Hrms.tests.TestPIMPage.searchEmployee()'><b>searchEmployee</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that the search functionality returns the correct employee</td>
 <td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.filterEmployeeList(TestPIMPage.java:134)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at com.Hrms.tests.TestPIMPage.searchEmployee(TestPIMPage.java:63)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1484982263", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1484982263'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace562345204", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace562345204'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at org.testng.Assert.fail(Assert.java:99)
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.filterEmployeeList(TestPIMPage.java:134)
+	at com.Hrms.tests.TestPIMPage.searchEmployee(TestPIMPage.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -251,68 +137,40 @@ Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
 <tr>
-<td title='com.Hrms.tests.TestPIMPage.editEmploymentStatus()'><b>editEmploymentStatus</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that the employment status of an employee can be updated</td>
+<td title='com.Hrms.tests.TestPIMPage.deleteEmployee()'><b>deleteEmployee</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that an employee can be deleted successfully</td>
 <td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.editEmploymentStatus(TestPIMPage.java:125)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at com.Hrms.tests.TestPIMPage.deleteEmployee(TestPIMPage.java:88)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1868964323", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1868964323'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace155140910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace155140910'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at org.testng.Assert.fail(Assert.java:99)
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.editEmploymentStatus(TestPIMPage.java:125)
+	at com.Hrms.tests.TestPIMPage.deleteEmployee(TestPIMPage.java:88)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -343,99 +201,7 @@ Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
-<tr>
-<td title='com.Hrms.tests.TestPIMPage.viewEmployeeDetails()'><b>viewEmployeeDetails</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that employee details are correctly displayed</td>
-<td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
-	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
-	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
-	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
-	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
-	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.viewEmployeeDetails(TestPIMPage.java:116)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace476868388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace476868388'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
-	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
-	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
-	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
-	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
-	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.viewEmployeeDetails(TestPIMPage.java:116)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
 <tr>
 <td title='com.Hrms.tests.TestPIMPage.viewEmployeeList()'><b>viewEmployeeList</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that the employee list is displayed correctly with accurate information</td>
 <td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
@@ -443,60 +209,32 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.viewEmployeeList(TestPIMPage.java:98)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at com.Hrms.tests.TestPIMPage.viewEmployeeList(TestPIMPage.java:97)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace379886173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace379886173'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1041735841", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1041735841'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at org.testng.Assert.fail(Assert.java:99)
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.viewEmployeeList(TestPIMPage.java:98)
+	at com.Hrms.tests.TestPIMPage.viewEmployeeList(TestPIMPage.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -527,68 +265,40 @@ Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
 <tr>
-<td title='com.Hrms.tests.TestPIMPage.searchEmployee()'><b>searchEmployee</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that the search functionality returns the correct employee</td>
+<td title='com.Hrms.tests.TestPIMPage.editEmployeeDetails()'><b>editEmployeeDetails</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that employee details can be edited successfully</td>
 <td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
-	at org.testng.Assert.fail(Assert.java:99)
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.searchEmployee(TestPIMPage.java:63)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at com.Hrms.tests.TestPIMPage.editEmployeeDetails(TestPIMPage.java:80)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1488395499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1488395499'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace181613131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace181613131'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e82077d4-a0ed-4acc-a75f-a7c9440e22bd, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24700, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
 	at org.testng.Assert.fail(Assert.java:99)
 	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
 	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
 	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
 	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
 	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
-	at com.Hrms.tests.TestPIMPage.searchEmployee(TestPIMPage.java:63)
+	at com.Hrms.tests.TestPIMPage.editEmployeeDetails(TestPIMPage.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -619,7 +329,199 @@ Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
+<tr>
+<td title='com.Hrms.tests.TestPIMPage.editEmploymentStatus()'><b>editEmploymentStatus</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that the employment status of an employee can be updated</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
+	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
+	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
+	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
+	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
+	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
+	at com.Hrms.tests.TestPIMPage.editEmploymentStatus(TestPIMPage.java:124)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace244229783", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace244229783'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
+	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
+	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
+	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
+	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
+	at com.Hrms.tests.TestPIMPage.editEmploymentStatus(TestPIMPage.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
+<tr>
+<td title='com.Hrms.tests.TestPIMPage.filterEmployeeList()'><b>filterEmployeeList</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that the employee list can be filtered based on various criteria</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
+	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
+	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
+	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
+	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
+	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
+	at com.Hrms.tests.TestPIMPage.filterEmployeeList(TestPIMPage.java:133)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1586289269", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1586289269'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
+	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
+	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
+	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
+	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
+	at com.Hrms.tests.TestPIMPage.filterEmployeeList(TestPIMPage.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
+<tr>
+<td title='com.Hrms.tests.TestPIMPage.viewEmployeeDetails()'><b>viewEmployeeDetails</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that employee details are correctly displayed</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
+	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
+	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
+	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
+	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
+	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
+	at com.Hrms.tests.TestPIMPage.viewEmployeeDetails(TestPIMPage.java:115)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace281896787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace281896787'><pre>java.lang.AssertionError: Unable to locate element: //input[@name=&apos;txtUserName&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0a9dfbc5-7197-40f3-9927-045a0c29ed25, findElement {using=xpath, value=//input[@name=&apos;txtUserName&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3880, moz:profile: C:\Users\Apeksh\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a9dfbc5-7197-40f3-9927-045a0c29ed25
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.Hrms.utils.TestNGUtility.assertFail(TestNGUtility.java:34)
+	at com.Hrms.utils.CommonUtils.findElement(CommonUtils.java:76)
+	at com.Hrms.utils.CommonUtils.clearWholeText(CommonUtils.java:130)
+	at com.Hrms.utils.CommonUtils.enterValue(CommonUtils.java:121)
+	at com.Hrms.pages.LoginPage.login(LoginPage.java:28)
+	at com.Hrms.tests.TestPIMPage.viewEmployeeDetails(TestPIMPage.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -629,20 +531,15 @@ Session ID: e82077d4-a0ed-4acc-a75f-a7c9440e22bd
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Hrms.tests.TestPIMPage.editEmployeeDetails()'><b>editEmployeeDetails</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that employee details can be edited successfully</td>
+<td title='com.Hrms.tests.TestPIMPage.addEmployee()'><b>addEmployee</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that an employee can be added successfully</td>
 <td></td>
-<td>0</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
-<tr>
-<td title='com.Hrms.tests.TestPIMPage.deleteEmployee()'><b>deleteEmployee</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that an employee can be deleted successfully</td>
-<td></td>
-<td>0</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
+<td>21</td>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
 <tr>
 <td title='com.Hrms.tests.TestPIMPage.addEmployeePhotos()'><b>addEmployeePhotos</b><br>Test class: com.Hrms.tests.TestPIMPage<br>Test method: Verify that photos can be added to employee profiles</td>
 <td></td>
 <td>5</td>
-<td>com.Hrms.tests.TestPIMPage@793f29ff</td></tr>
+<td>com.Hrms.tests.TestPIMPage@4b741d6d</td></tr>
 </table><p>
 </body>
 </html>
